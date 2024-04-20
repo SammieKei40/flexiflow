@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    height: 100%
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4a90e2 !important; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff !important; 
+ }
+
+.overflow-y-auto {
+  scrollbar-width: thin;
+  }
+
+body::-webkit-scrollbar {
+  width: 6px; 
+}
