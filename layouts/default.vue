@@ -1,15 +1,14 @@
 <template>
 
 
-    <div class="flex flex-col flex-1 overflow-hidden ">
+    <div class="flex flex-col flex-1 overflow-hidden max-w-[1440px] m-auto">
 
         <d-board-side-bar :sidebarOpen="sidebarOpen" :setSidebarOpen="setSidebarOpen" class=""></d-board-side-bar>
 
         <!-- <db-content> -->
 
 
-        <div
-            class="flex-1    overflow-hidden md:overflow-x-hidden  md:min-h-0    ">
+        <div class="flex-1   overflow-hidden md:overflow-x-hidden  md:min-h-0    ">
             <slot></slot>
         </div>
 
