@@ -1,6 +1,6 @@
 <template>
   <nuxt-link v-for="(item, index) in displayedItems" :key="index" :to="item.link"
-    @click="setActive(index), setSidebarOpen()" class="py-1 flex justify-between items-center cursor-pointer rounded-md"
+    @click="setActive(index), setSidebarOpen()" class=" flex justify-between items-center cursor-pointer rounded-md"
     :exact="true" :active-class="activeIndex === index ? '' : ''">
     <div :class="[
     `flex items-center justify-start underline-animation text-[#fff] lg:text-gray font-normal w-full  mx-auto gap-2 rounded `,

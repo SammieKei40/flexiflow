@@ -20,7 +20,7 @@
                     <div v-for="(faq, faqIndex) in faqs" :key="faqIndex" class="py-4  rounded-xl bg-[#fff]">
                         <Disclosure>
                             <DisclosureButton class="flex justify-between w-full px-4 py-2  font-medium ">
-                                <span class="text-[#061428]">{{ faq.question }}</span>
+                                <span class="text-[#061428] text-start">{{ faq.question }}</span>
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"

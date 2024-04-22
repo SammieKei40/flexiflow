@@ -9,7 +9,7 @@
 
 
         <div
-            class="flex-1  bg-white   overflow-x-hidden md:overflow-x-hidden min-h-screen md:min-h-0  md:px-auto md:pt-auto  ">
+            class="flex-1    overflow-hidden md:overflow-x-hidden  md:min-h-0    ">
             <slot></slot>
         </div>
 
