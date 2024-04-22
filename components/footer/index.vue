@@ -14,9 +14,9 @@
 
                         <div class="relative  rounded-full  md:w-[410px] shadow">
                             <input ref="emailInputRef" type="text" name="email" placeholder="Enter your email"
-                                class="pl-4 pr-20 w-[374px] md:w-full py-5 rounded-full  text-sm bg-[#0C0725] border-2 border-gray placeholder-[#A6A6A6] border-opacity-20" />
+                                class="pl-4 pr-20 w-full py-5 rounded-full  text-sm bg-[#0C0725] border-2 border-gray placeholder-[#A6A6A6] border-opacity-20" />
                             <button type="submit"
-                                class="absolute hover:bg-[#000] hover:duration-300 hover:ease-linear inset-y-0 m-2 right-5 md:right-0 flex items-center px-4 font-bold text-[#fff] bg-pink rounded-full ">
+                                class="absolute hover:bg-[#000] hover:duration-300 hover:ease-linear inset-y-0 m-2 right-4 md:right-0 flex items-center px-4 font-bold text-[#fff] bg-pink rounded-full ">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
